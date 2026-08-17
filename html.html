@@ -6,10 +6,11 @@
     <title>Document</title>
 </head>
 <style>
-    h1{ color:blueviolet;}
+    h1{ color:blueviolet; margin-left: 20px}
     span{font-size: 20px; color: rgb(23, 168, 67)}
     section{border: 2px solid red;}
     div{background-color: #a8f9ff;}
+    table,td{ border: 1px solid black; border-collapse: collapse;}
 </style>
 <body>
 <div>
@@ -36,7 +37,7 @@
 </section>
     <p>Ao longo dos anos a web evoluiu e novas tecnologias foram incorporadas como <span>CSS</span> e Javascript</p>
     <p>A = Ax + Bx<sup>2</sup></p>
-<section id='listas'>
+<section id='listas' >
         <p>O HTML possui listas não ordenadas, ordenadas e detakhadasm cruiada com as tags ul, ol e di</p>
         <p>Lista Não Ordenada</p>
         <ul>
@@ -46,7 +47,7 @@
         </ul>
 
         <p>Lista Ordenada</p>
-        <ol>
+        <ol type="i" start="3">
             <li>Pera</li>
             <li>Uva</li>
             <li>Maçã</li>
@@ -60,6 +61,44 @@
             <dt>Café</dt>
             <dd>bebida obtida pela torra e fervura de grão de café, essencial a vida</dd>
         </dl>
+
+    </section>
+
+    <section id="tabelas">
+        <p>O HTML fornece suporte a tabelas por meio da tag table, e outras tags, como tag definição de linha &lt tr &gt <i>table row</i>,
+        criação de celular com tag &lt t &gt <i>table data</i></p>
+
+        <table>
+            <caption> Churrasco Finaleira</caption>
+            <tr>
+                <td>indice</td><td>cat</td><td>nome</td><td>valor</td>
+            </tr><tr>
+              <td>1</td><td>Carnes</td><td>carne</td><td>50,00</td>
+            </tr>
+            
+            <tr>
+              <td>2</td><td>Carnes</td><td>Linguiça</td><td>42,00</td>
+            </tr>
+
+            <tr>
+              <td>3</td><td>Componente</td><td>carvão</td><td>30,00</td>
+            </tr>
+
+            <tr>
+              <td>4</td><td>Bebida</td><td>Água com gás</td><td>10,00</td>
+            </tr>
+
+            <tr>
+              <td>5</td><td>Bebida</td><td>Refrigerante</td><td>15,00</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" rowspan="1">Total</td>
+                <td></td>
+                <td>147,00</td>
+            </tr>
+            
+        </table>
 
     </section>
    
