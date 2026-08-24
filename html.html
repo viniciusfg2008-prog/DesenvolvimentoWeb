@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-    h1{ color:blueviolet; margin-left: 20px}
-    span{font-size: 20px; color: rgb(23, 168, 67)}
-    section{border: 2px solid red;}
-    div{background-color: #a8f9ff;}
-    table,td{ border: 1px solid black; border-collapse: collapse;}
+
+<style> /** Codigo CS*/
+    h1{ color:rgb(248, 1, 248); margin-left: 20px}
+    span{font-size: 20px; color: rgb(131, 12, 81)}
+    section{border: 2px solid rgb(98, 52, 173);}
+    div{background-color: #ffa8ff;}
+    table#sepei, #sepei td, #sepei th{ border: 1px solid black; border-collapse: collapse; background-color: aqua;
+    }
 </style>
 <body>
 <div>
@@ -71,7 +73,7 @@
         <table>
             <caption> Churrasco Finaleira</caption>
             <tr>
-                <td>indice</td><td>cat</td><td>nome</td><td>valor</td>
+                <td>Indice</td><td>Cat</td><td>Nome</td><td>Valor</td>
             </tr><tr>
               <td>1</td><td>Carnes</td><td>carne</td><td>50,00</td>
             </tr>
@@ -81,7 +83,7 @@
             </tr>
 
             <tr>
-              <td>3</td><td>Componente</td><td>carvão</td><td>30,00</td>
+              <td>3</td><td>Componente</td><td>Carvão</td><td>30,00</td>
             </tr>
 
             <tr>
@@ -100,6 +102,56 @@
             
         </table>
 
+        <table id = "sepei">
+            <caption> SEPEI 2026</caption>
+            <tr><th>Indice</th>>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Joana</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kiara</td>
+                <td>17</td></tr>
+
+            <tr>
+                <td>3</td>
+                <td>Oliver</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Heloisa</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Maria</td>
+                <td>17</td>
+            </tr>
+            <tr><td colspan="2">Total alunos</td><td>5</td></tr>
+        </table>
+
+    </section>
+
+    <section>
+        <h1>Formulário</h1>
+        <p>As tags de formulário permitem entradas de dado</p>
+
+        <form action="">
+            <label for="inputnome">Nome:</label>
+            <input id ="inputnome" type="text">
+
+            <label for="inputTelefone">Teleone:</label>
+            <input id ="inputTelefone" type="text">
+
+            
+
+        </form>
     </section>
    
 </body>
