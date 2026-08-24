@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
+<style> /** Comentário em CSS */
     h1{ color:blueviolet; margin-left: 20px}
     span{font-size: 20px; color: rgb(23, 168, 67)}
     section{border: 2px solid red;}
     div{background-color: #a8f9ff;}
-    table,td{ border: 1px solid black; border-collapse: collapse;}
+    table,td, caption, th{ border: 1px solid black; border-collapse: collapse;}
+    table#sepei, #sepei caption {background-color: rgb(203, 253, 255)}
 </style>
 <body>
 <div>
@@ -100,6 +101,30 @@
             
         </table>
 
+        <table id="sepei">
+            <caption>SEPEI 2026</caption>
+        <tr><th>indice</th><th>Nome</th><th>Idade</th></tr>
+        <tr><td>1</td><td>Joana</td><td>18</td></tr>
+        <tr><td>2</td><td>Luana</td><td>17</td></tr>
+        <tr><td colspan="2">Total Aluno</td><td>3</td></tr>
+
+        </table>
+
+    </section>
+
+    <section>
+        <h1>Fomulário</h1>
+
+        <p>As tags de formulário permitem entrada de dado</p>
+
+        <form action="">
+            <label for="inputnome">Nome:</label>
+            <input id="inputnome"type="text">
+
+            <label for="inputTelefone">Telefone:</label>
+            <input id="inputTelefone"type="text">
+
+        </form>
     </section>
    
 </body>
