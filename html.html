@@ -100,6 +100,8 @@
             </tr>
             
         </table>
+        <div><p>
+        </p></div>
 
         <table id="sepei">
             <caption>SEPEI 2026</caption>
@@ -122,7 +124,23 @@
             <input id="inputnome"type="text">
 
             <label for="inputTelefone">Telefone:</label>
-            <input id="inputTelefone"type="text">
+            <input id="inputTelefone"type="tel" pattern="^\(\d{2}\)\\{4,5}-\{4}$">
+            <input type="submit" value="Enviar">
+
+        </form>
+        <form action = "https://google.com/search" method="get">
+            <input type="text" name="q">
+            <input type="submit">
+        </form>
+
+        <form method="post">
+            <label for="usr">Usuário</label>
+            <input id="usr" type="text" name="usuario">
+
+            <label for="senha">Senha</label>
+            <input id="senha" type="password" name="senha">
+
+            <input type="submit">
 
         </form>
     </section>
