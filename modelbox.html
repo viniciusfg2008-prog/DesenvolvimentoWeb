@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Model Box</title>
+</head>
+<body>
+    <h1>Modelo em Caixa, Model Box HTML</h1>
+
+<p>Os elementos html são estruturados em um modelo denominado modelbox, que refere-se a característica de um elemento
+    poder conter outros elementos, sendo que cada um possui uma estrutura interna, similiar a ideia e uma caixa dentro de outra. </p>
+
+    <h2>Estrutura de um elemento HTML</h2>
+    <p>Todos os elementos HTML possuem conteúdo, padding, borda, offset. Sendo a região de conteúdo estruturada em três 
+        camadas 1) background-color 2) background-image 3) Content <p>
+
+<img src="imgs/modelbox.png"alt="">
+
+<style>
+#divitexto{
+    border: 5px solid rgba(255, 0, 0, 0.2);
+    padding: 20px;
+    margin: 25px;
+    outline: 1px solid red;
+    outline-offset: 5px;
+    background-color: yellow;
+    background-image: url("imgs/png.png");
+    background-position: 50% 50%;
+}
+</style>
+
+<div id="divitexto">Texto</div>
+<span>texto2</span>
+</body>
+</html>
