@@ -9,14 +9,37 @@
            height: 100px;
     }
 
+    .container{position: relative}
+
     #box1{background-color: aqua;
-    position: relative; 
-    top: 50px;
-    left: 50px;}
+    position: fixed; 
+    top: 0px;
+    left: 0px;}
+
+    #box2{background-color: aqua;
+    position: fixed; 
+    top: 0px;
+    right: 0px;}
+
+    #box3{background-color: aqua;
+    position: fixed; 
+    bottom: 0px;
+    left: 0px;}
+
+    #box4{background-color: aqua;
+    position: absolute; 
+    bottom: 0px;
+    right: 0px;}
+
+    #box5{background-color: aqua;
+    position: fixed; 
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);}
    </style>
 </head>
 <body>   
-   <div class="conteiner">
+   <div class="container">
     <div id="box1" class="box">box1</div>
     <div id="box2" class="box">box2</div>
     <div id="box3" class="box">box3</div>
