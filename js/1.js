@@ -49,16 +49,16 @@ else if(imc>40){
 
 a=2
 switch(a){
-    case 1: console.log("A")
-    case 2: console.log("B")
-    case 3: console.log("C")
+    case 1: console.log("A"); break
+    case 2: console.log("B"); break
+    case 3: console.log("C"); break
     case 4: console.log("D")
 }
 
 switch(a){
-    case a**a==4: console.log("A")
-    case a==2: console.log("B")
-    case 3==3: console.log("C")
+    case a**a==4: console.log("A"); break
+    case a==2: console.log("B"); break
+    case 3==3: console.log("C"); break
     default: console.log("D")
 }
 
@@ -67,3 +67,8 @@ while(i<5){
     console.log(i);
     i++
 }
+
+let Carnes=["picanha", "costela", "alcatra", "raldinha"]
+Carnes.forEach( (v1, index) => {
+    console.log(v1 + "index: "+index);
+})
