@@ -40,4 +40,6 @@ console.log(ItemChurrasco.filter( (e,i)=>{
     return e.split("").includes("P")
 }))
 
-console.log(JSON.stringify)
+console.log(JSON.stringify(ItemChurrasco));
+array2=JSON.parse("[\"bla\", \"bla1\"]")
+console.log(array2[1])
